@@ -1,0 +1,91 @@
+*,
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #765827;
+}
+
+.navbar {
+  background-color: #65451f;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.dropdown-menu {
+  background-color: #65451f;
+}
+
+.dropdown-item {
+  color: white;
+}
+
+h1 {
+  color: #f5cca0;
+}
+
+.carousel img {
+  border-radius: 50px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.card {
+  background-color: #c8ae7d;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+#sandiAmbalan {
+  background-color: #c8ae7d;
+  border-radius: 2rem;
+  width: 60vw;
+  margin: auto;
+  padding: 2rem;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+footer {
+  background-color: #65451f;
+  margin-top: 3rem;
+  padding: 4rem;
+}
+
+.col-md-4 a {
+  text-decoration: none;
+  color: white;
+}
+
+.profile header {
+  text-align: center;
+}
+
+.profile img {
+  width: 200px;
+}
+
+article .card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+@media screen and (max-width: 992px) {
+  .col-lg-3 {
+    padding: 2rem;
+  }
+
+  footer {
+    margin: auto;
+    text-align: center;
+  }
+
+  #sandiAmbalan {
+    width: 80vw;
+  }
+}
